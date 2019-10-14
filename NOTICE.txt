@@ -30,3 +30,5 @@ The following tools and components are required:
 The contributors of this project are:
 	
 - Mario David Jiménez Hartman (mariod.uni@gmail.com)
+- Andrés Fernández Rodríguez (andres.fernandez.999@gmail.com)
+
