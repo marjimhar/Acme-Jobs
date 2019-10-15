@@ -16,6 +16,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
+
 public class Shout extends DomainEntity {
 
 	//Serialization identifier
