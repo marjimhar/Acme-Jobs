@@ -6,7 +6,7 @@ import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.shouts.Shout;
+import acme.entities.shout.Shout;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
@@ -14,13 +14,14 @@ import acme.framework.services.AbstractListService;
 
 @Service
 public class AnonymousShoutListService implements AbstractListService<Anonymous, Shout> {
-	//Internal State
 
+	//Internal State
+  
 	@Autowired
 	AnonymousShoutRepository repository;
 
-
 	//AbstractListService<Administrator,Shout> interface 
+
 	@Override
 	public boolean authorise(final Request<Shout> request) {
 		assert request != null;
@@ -35,6 +36,7 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 		assert model != null;
 
 		request.unbind(entity, model, "author", "text", "moment");
+
 	}
 
 	@Override
@@ -42,8 +44,10 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 		assert request != null;
 
 		Collection<Shout> result;
+
 		result = this.repository.findMany();
 
 		return result;
 	}
+
 }

@@ -6,7 +6,8 @@ import java.util.Collection;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.shouts.Shout;
+import acme.entities.shout.Shout;
+
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
@@ -14,4 +15,5 @@ public interface AnonymousShoutRepository extends AbstractRepository {
 
 	@Query("select s from Shout s")
 	Collection<Shout> findMany();
+
 }
