@@ -30,8 +30,9 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
-master.menu.anonymous.shout.create=Gritar
-master.menu.anonymous.shout.list=Lista
+
+master.menu.anonymous.shout.list = Listar gritos
+master.menu.anonymous.shout.create = Gritar!
 
 # master.menu.administrator ###################################################
 
