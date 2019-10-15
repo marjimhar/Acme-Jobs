@@ -30,8 +30,9 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 
-master.menu.anonymous.favourite-link.Mario = Enlace favorito de Mario
-master.menu.anonymous.favourite-link.Carlos = Enlace favorito de Carlos
+master.menu.anonymous.favourite-link.Mario = Perfil de Mario
+master.menu.anonymous.favourite-link.Carlos = Perfil de Carlos
+master.menu.anonymous.favourite-link.Gonzalo = Perfil de Gonzalo
 master.menu.anonymous.shout.list = Listar gritos
 master.menu.anonymous.shout.create = Gritar!
 
