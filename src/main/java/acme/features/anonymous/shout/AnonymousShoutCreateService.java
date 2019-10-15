@@ -47,6 +47,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	}
 
 	@Override
+
 	public Shout instantiate(final Request<Shout> request) {
 		assert request != null;
 
