@@ -18,13 +18,13 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>539</x>
+      <x>560</x>
       <y>203</y>
-      <w>70</w>
-      <h>77</h>
+      <w>49</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>80.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>50.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -179,8 +179,8 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
-      <y>266</y>
+      <x>462</x>
+      <y>259</y>
       <w>140</w>
       <h>63</h>
     </coordinates>
@@ -295,5 +295,23 @@ m1=1
 m2=*
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+
+      <x>35</x>
+      <y>413</y>
+      <w>154</w>
+      <h>161</h>
+
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Shout
+--
++ moment: Data (Temporal(TIMESTAMP), Past)
++ author: String (NotBlank)
++ text: String (NotBlank)</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
