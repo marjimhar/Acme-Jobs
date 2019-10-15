@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import acme.entities.shout.Shout;
+
 import acme.framework.repositories.AbstractRepository;
 
 @Repository

@@ -15,13 +15,12 @@ import acme.framework.services.AbstractListService;
 @Service
 public class AnonymousShoutListService implements AbstractListService<Anonymous, Shout> {
 
-	// Internal state ---------------------------------------------------------
-
+	//Internal State
+  
 	@Autowired
 	AnonymousShoutRepository repository;
 
-
-	//AbstractListService<Administrator, Shout> interface --------------
+	//AbstractListService<Administrator,Shout> interface 
 
 	@Override
 	public boolean authorise(final Request<Shout> request) {
