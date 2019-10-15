@@ -23,6 +23,7 @@
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.create" action="/anonymous/shout/create"/>
 		  <acme:menu-suboption code="master.menu.anonymous.favourite-link.Mario" action="https://github.com/marjimhar"/>
+      <acme:menu-suboption code="master.menu.anonymous.favourite-link.Carlos" action="https://github.com/carsantir"/>
 
 		</acme:menu-option>
 
@@ -56,4 +57,3 @@
 		<acme:menu-option code="master.menu.sign-out" action="/master/sign-out" access="isAuthenticated()"/>
 	</acme:menu-right>
 </acme:menu-bar>
-
