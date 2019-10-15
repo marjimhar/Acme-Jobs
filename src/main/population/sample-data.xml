@@ -33,8 +33,7 @@
 	<bean id="shout03" class="acme.entities.shouts.Shout">
 		<property name="author" value="Yuri Boika" />
 		<property name="text" value="Agora si comprendo" />
-		<property name="moment" value="2019/02/17 09:16"/>
-		
+		<property name="moment" value="2019/02/17 09:16"/>		
 	</bean>
 
 </beans>

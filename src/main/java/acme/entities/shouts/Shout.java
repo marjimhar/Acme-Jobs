@@ -1,4 +1,3 @@
-
 package acme.entities.shouts;
 
 import java.util.Date;
@@ -34,3 +33,4 @@ public class Shout extends DomainEntity {
 	private Date				moment;
 
 }
+
