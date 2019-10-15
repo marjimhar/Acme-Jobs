@@ -32,5 +32,4 @@ The contributors of this project are:
 - Mario David Jiménez Hartman (mariod.uni@gmail.com)
 - Andrés Fernández Rodríguez (andres.fernandez.999@gmail.com)
 - Carlos Santos Tirado (carsantir@alum.us.es)
-
-
+- Gonzalo Guerrero Luna (gonguelun@alum.us.es)
