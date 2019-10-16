@@ -25,6 +25,7 @@
 		  <acme:menu-suboption code="master.menu.anonymous.favourite-link.Mario" action="https://github.com/marjimhar"/>
       <acme:menu-suboption code="master.menu.anonymous.favourite-link.Carlos" action="https://github.com/carsantir"/>
       <acme:menu-suboption code="master.menu.anonymous.favourite-link.Gonzalo" action="https://github.com/gonguelun"/>
+      <acme:menu-suboption code="master.menu.anonymous.favourite-link.Andres" action="https://github.com/andferrod3"/>
 
 		</acme:menu-option>
 

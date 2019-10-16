@@ -33,6 +33,7 @@ master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link.Mario = Perfil de Mario
 master.menu.anonymous.favourite-link.Carlos = Perfil de Carlos
 master.menu.anonymous.favourite-link.Gonzalo = Perfil de Gonzalo
+master.menu.anonymous.favourite-link.Andres = Perfil de Andres
 master.menu.anonymous.shout.list = Listar gritos
 master.menu.anonymous.shout.create = Gritar!
 

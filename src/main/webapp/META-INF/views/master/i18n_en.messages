@@ -32,6 +32,7 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link.Mario = Mario's profile
 master.menu.anonymous.favourite-link.Carlos = Carlos's profile
 master.menu.anonymous.favourite-link.Gonzalo = Gonzalo's profile
+master.menu.anonymous.favourite-link.Andres = Andres' profile
 master.menu.anonymous.shout.list = List shouts
 master.menu.anonymous.shout.create = Shout!
 
